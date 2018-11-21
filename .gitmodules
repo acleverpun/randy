@@ -1,0 +1,3 @@
+[submodule "lib/godot-tiled-importer"]
+	path = lib/godot-tiled-importer
+	url = https://github.com/vnen/godot-tiled-importer.git

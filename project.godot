@@ -19,6 +19,10 @@ config/name="Randy"
 run/main_scene="res://src/scenes/area.tscn"
 config/icon="res://assets/icons/icon.png"
 
+[editor_plugins]
+
+enabled=PoolStringArray( "vnen.tiled_importer" )
+
 [input]
 
 game.quit={
@@ -80,3 +84,7 @@ name_casing=1
 [rendering]
 
 environment/default_environment="res://assets/envs/default_env.tres"
+
+[tiled_importer]
+
+enable_json_format=true
