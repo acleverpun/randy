@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="128" height="72" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" name="roguelikeSheet" tilewidth="16" tileheight="16" spacing="1" tilecount="1767" columns="57">
+  <image source="../../../waves/assets/tiles/roguelikeSheet.png" width="968" height="526"/>
+ </tileset>
+ <layer id="7" name="ground" width="128" height="72">
+  <data encoding="base64" compression="zlib">
+   eJzt0zEBADAMw7BcpTX+rMpiOapDDOxJMpz1OK3dH/7H//gf/+N//I//8T/+x//4H//jf/yP//E//sf/+B//43/8j//xP/7H//gf/+N//I//6feH//E//sf/+B//43/8j//xP/7H//gf/+N//I//8T/+x//4H//jf/yP//E//sf/+B//43/6/eF//I//8T/+558FgVTaPQ==
+  </data>
+ </layer>
+ <layer id="8" name="main" width="128" height="72">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwbkAAAAQ==
+  </data>
+ </layer>
+</map>

@@ -23,6 +23,20 @@ config/icon="res://assets/icons/icon.png"
 
 enabled=PoolStringArray( "vnen.tiled_importer" )
 
+[importer_defaults]
+
+vnen.tiled_importer={
+"add_background": true,
+"collision_layer": 1,
+"custom_properties": true,
+"embed_internal_images": false,
+"image_flags": 3,
+"post_import_script": "res://src/utils/tiled.gd",
+"save_tiled_properties": false,
+"tile_metadata": false,
+"uv_clip": true
+}
+
 [input]
 
 game.quit={

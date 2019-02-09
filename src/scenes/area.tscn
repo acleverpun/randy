@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://src/scenes/area.gd" type="Script" id=1]
-[ext_resource path="res://src/entities/actors/player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://assets/maps/area.tmx" type="PackedScene" id=1]
+[ext_resource path="res://src/scenes/area.gd" type="Script" id=2]
+[ext_resource path="res://src/entities/actors/player.tscn" type="PackedScene" id=3]
 
-[node name="area" type="Node2D"]
-script = ExtResource( 1 )
+[node name="area" index="0" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
 
-[node name="player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 400, 320 )
+[node name="main" parent="." index="1"]
+editor/display_folded = false
+
+[node name="player" parent="main" index="0" instance=ExtResource( 3 )]
+position = Vector2( 1024, 576 )
 
