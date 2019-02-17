@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/roguelikeSheet.png-50019ae95d65f8584d7a63813c019585.stex"
+path="res://.import/roguelikeSheet.png-76adc6c23e041ce3bc3f7d2df5c66acc.stex"
 
 [deps]
 
-source_file="res://assets/tiles/roguelikeSheet.png"
-dest_files=[ "res://.import/roguelikeSheet.png-50019ae95d65f8584d7a63813c019585.stex" ]
+source_file="res://assets/sprites/roguelikeSheet.png"
+dest_files=[ "res://.import/roguelikeSheet.png-76adc6c23e041ce3bc3f7d2df5c66acc.stex" ]
 
 [params]
 
@@ -17,7 +17,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -27,5 +27,5 @@ process/HDR_as_SRGB=false
 process/invert_color=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

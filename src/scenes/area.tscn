@@ -7,7 +7,7 @@
 [node name="area" index="0" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
-[node name="main" parent="." index="1"]
+[node name="main" parent="." index="4"]
 editor/display_folded = false
 
 [node name="player" parent="main" index="0" instance=ExtResource( 3 )]
