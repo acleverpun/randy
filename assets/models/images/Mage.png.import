@@ -4,6 +4,10 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/Mage.png-5836b6556f6e82601a819ec002cae2ee.s3tc.stex"
 path.etc2="res://.import/Mage.png-5836b6556f6e82601a819ec002cae2ee.etc2.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2" ],
+"vram_texture": true
+}
 
 [deps]
 
