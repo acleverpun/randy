@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="128" height="72" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.2" orientation="orthogonal" renderorder="right-down" width="128" height="72" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="2">
  <tileset firstgid="1" source="../tiles/roguelikeSheet.tsx"/>
  <layer id="7" name="ground" width="128" height="72">
   <data encoding="base64" compression="zlib">
@@ -18,12 +18,15 @@
  </layer>
  <layer id="12" name="on-walls" width="128" height="72">
   <data encoding="base64" compression="zlib">
-   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwbkAAAAQ==
+   eJztzrEJACAMRNHMks79d3GeWErqgIXvwefaiwAAAAAAAAAAAAAAAAAAAACAeast/8nTfn0CAAAAAAAAAAAAAAAAAAAAAAAALgUSzgFL
   </data>
  </layer>
+ <objectgroup id="13" name="objects">
+  <object id="1" gid="20" x="1136" y="336" width="16" height="16"/>
+ </objectgroup>
  <layer id="8" name="main" width="128" height="72">
   <data encoding="base64" compression="zlib">
-   eJztzgENAAAIA6CHsH9WY9w5SEACAAAAAAAAAAAAAAAAAAAAcNe0AwAAAAAAAAAAAAAAAAAAAAAAAAC8sboqABU=
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwbkAAAAQ==
   </data>
  </layer>
  <layer id="11" name="roofs" width="128" height="72">
